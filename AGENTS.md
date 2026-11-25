@@ -9,7 +9,7 @@ This file is the canonical guidance for AI coding agents working in this reposit
 - If working on FastTests, prefer speed and isolate dependencies.
 - Continue tasks without stopping at checkpoints until completely finished.
 - Prefer scripts over manual searching/counting to track exact locations and progress — LLMs are unreliable at counting.
-- Scripts must return strings that include the filename, line number, and surrounding context so the agent can act on them.
+- Scripts must return strings that include the filename, line number, and surrounding context so the agent can act odfdfgdg them.
 - Agents may only use the `.agents/` directory to store partial files, scripts, and scratch output.
 
 ## Repository Overview
